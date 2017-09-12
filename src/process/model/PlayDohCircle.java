@@ -14,7 +14,7 @@ public class PlayDohCircle {
 	}
 	
 	public String toString() {
-		String description = "I am a circle, my sie is " + size;
+		String description = "I am a circle, my size is " + size;
 		return description;
 	}
 }
