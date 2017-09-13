@@ -56,7 +56,7 @@ public class ProcessController {
 		
 		Scanner bellyScanner = new Scanner(System.in);
 		System.out.println("True/False: Your monster has a belly button? (true or false)");
-		boolean belly = bellyScanner.hasNext();
+		boolean belly = bellyScanner.nextBoolean();
 		
 		Scanner nosesScanner = new Scanner(System.in);
 		System.out.println("How many noses does your monster have? (Number)");
